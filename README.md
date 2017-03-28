@@ -5,9 +5,12 @@
 Hit a random bee. When the bees are all dead a restart button will appear.
 
 There are three types of bees in this game:
+
 • 1 Queen Bee - 100 life / -8 life for each hit
 --- When the queen bee runs out points, all others die as well.
+
 • 5 Worker Bee - 75 life / -10 life for each hit
+
 • 8 Drone Bee - 50 life / -12 life for each hit
 
 ## Structure
