@@ -1,4 +1,5 @@
-# Boilerplate using ES6 / AngularJS 1.5.5
+# Bee Game 
+(ES6 / AngularJS 1.5.5)
 
 ## Gameplay
 Hit a random bee. When the bees are all dead a restart button will appear.
