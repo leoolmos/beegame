@@ -1,0 +1,20 @@
+<div ng-controller="HomeController" class="home">
+  <section class="container">
+    <h1>BEE GAME</h1>
+    <div class="bees">
+      <ul>
+        <li ng-repeat="bee in bees" class="bee bee-{{bee.type}}">
+          <h2>{{bee.type}}</h2>
+          <div class="life">
+            <span class="bar-wrapper">
+              <span class="bar" ng-style="{'width':bee.percent+'%'}" ng-class="bee.percent < 30 ? 'danger' : (bee.percent < 70 ? 'warn' : '') "></span>
+            </span>
+            <small><span ng-bind="bee.life"></span>/<span ng-bind="bee.startLife"></span></small>
+          </div>
+        </li>
+      </ul>
+      <button ng-click="startGame()" ng-show="finish">Restart</button>
+      <button ng-click="hit()" ng-disabled="finish">Hit</button>
+    </div>
+  </section>
+</div>

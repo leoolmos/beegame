@@ -1,0 +1,58 @@
+[class*='col-'] {
+  display: inline-block;
+}
+
+.container {
+  display: inline-block; 
+  width: 100%;
+  padding: 0 20px;
+  text-align: left; 
+}
+.col-1 { width: 10%; }
+.col-2 { width: 20%; }
+.col-3 { width: 30%; }
+.col-4 { width: 40%; }
+.col-5 { width: 50%; }
+.col-6 { width: 60%; }
+.col-7 { width: 70%; }
+.col-8 { width: 80%; }
+.col-9 { width: 90%; }
+.col-10 { width: 100%; }
+
+@media (min-width : 768px)  {
+
+  .container {
+    width: 720px;
+  }
+
+  .col-m-1 { width: 10%; }
+  .col-m-2 { width: 20%; }
+  .col-m-3 { width: 30%; }
+  .col-m-4 { width: 40%; }
+  .col-m-5 { width: 50%; }
+  .col-m-6 { width: 60%; }
+  .col-m-7 { width: 70%; }
+  .col-m-8 { width: 80%; }
+  .col-m-9 { width: 90%; }
+  .col-m-10 { width: 100%; }
+  
+}
+
+@media (min-width : 992px)  {
+
+  .container {
+    width: 960px;
+  }
+
+  .col-l-1 { width: 10%; }
+  .col-l-2 { width: 20%; }
+  .col-l-3 { width: 30%; }
+  .col-l-4 { width: 40%; }
+  .col-l-5 { width: 50%; }
+  .col-l-6 { width: 60%; }
+  .col-l-7 { width: 70%; }
+  .col-l-8 { width: 80%; }
+  .col-l-9 { width: 90%; }
+  .col-l-10 { width: 100%; }
+
+}
